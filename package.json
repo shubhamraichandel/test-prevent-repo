@@ -1,0 +1,26 @@
+{
+  "name": "repo-guard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Shubham Raichandel",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.4",
+    "@octokit/webhooks": "^10.1.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "eventsource": "^2.0.2",
+    "express": "^4.18.1",
+    "octokit": "^2.0.7"
+  }
+}
